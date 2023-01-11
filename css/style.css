@@ -1,0 +1,47 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
+  width: 750px;
+  height: 500px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container-button {
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+section section {
+
+}
